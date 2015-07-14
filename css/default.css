@@ -1,0 +1,143 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25.06.2015, 9:30:20
+    Author     : User1682
+*/
+
+body, html
+{
+    height: 100%;
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    
+}
+
+table
+{
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+    text-align: center;
+}
+
+img
+{
+    width: 100px;
+    border: 10px;
+}
+
+#upload-form_wrap
+{
+    text-align: center;
+    width:100%;
+    position: relative;
+}
+
+#upload-form_cont
+{
+    border-color: #A9CCD1;
+    border-style: dashed;
+    border-width: thin;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 200px;
+    width: 100%;
+}
+
+#content
+{
+    text-align: center;
+    vertical-align: top;
+}
+
+#photo-content_wrap
+{
+    text-align: center;
+    width:100%;
+    position: relative;
+}
+
+#photo-content_cont
+{
+    border-color: #A9CCD1;
+    border-style: dashed;
+    border-width: thin;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 100%;
+    width: 100%;
+}
+
+#dragandrophandler
+{
+border:2px dotted #0B85A1;
+width:400px;
+color:#92AAB0;
+text-align:center;
+vertical-align:top;
+padding:10px 10px 10px 10px;
+margin-bottom:10px;
+font-size:200%;
+}
+
+.progressBar {
+    width: 200px;
+    height: 22px;
+    border: 1px solid #ddd;
+    border-radius: 5px; 
+    overflow: hidden;
+    display:inline-block;
+    margin:0px 10px 5px 5px;
+    vertical-align:top;
+}
+ 
+.progressBar div {
+    height: 100%;
+    color: #fff;
+    text-align: right;
+    line-height: 22px; /* same as #progressBar height if we want text middle aligned */
+    width: 0;
+    background-color: #0ba1b5; border-radius: 3px; 
+}
+.statusbar
+{
+    border-top:1px solid #A9CCD1;
+    min-height:25px;
+    width:100%;
+    padding:10px 10px 0px 10px;
+    vertical-align:top;
+}
+.statusbar:nth-child(odd){
+    background:#EBEFF0;
+}
+.filename
+{
+display:inline-block;
+vertical-align:top;
+width:250px;
+}
+.filesize
+{
+display:inline-block;
+vertical-align:top;
+color:#30693D;
+width:100px;
+margin-left:10px;
+margin-right:5px;
+}
+.abort{
+    background-color:#A8352F;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;display:inline-block;
+    color:#fff;
+    font-family:arial;font-size:13px;font-weight:normal;
+    padding:4px 15px;
+    cursor:pointer;
+    vertical-align:top
+    }
